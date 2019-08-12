@@ -24,7 +24,7 @@ lastpoint=[0.0,0.0]
 random.seed(None)
 
 for i in range(0,nsteps):
-  print(i)
+  
   # Draw random phase from [0,2pi] re^(i *theta), where r=1 
   theta = np.random.uniform(0,2*np.math.pi)
   # Compute dx, dy
